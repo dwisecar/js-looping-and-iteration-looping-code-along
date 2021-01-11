@@ -34,7 +34,7 @@ We could then call `wrapGift()` on each gift individually:
 ```js
 wrapGift(gifts[0]);
 wrapGift(gifts[1]);
-wrapGift(gifts[2]);
+wrapGift(gifts[2]); 
 ```
 
 However, this isn't very efficient or extensible. It's a lot of repetitive code
